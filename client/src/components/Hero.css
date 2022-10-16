@@ -1,0 +1,16 @@
+.hero {
+  display: inline-flex;
+  margin: 30px 30px;
+  text-align: left;
+}
+
+.hero .content {
+  text-align: center;
+  margin-left: 100px;
+}
+
+.hero img {
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+}

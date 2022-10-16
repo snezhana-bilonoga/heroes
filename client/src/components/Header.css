@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+  }
+  
+  .header button {
+    border: none;
+    background: none;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+      Verdana, sans-serif;
+  }
+  
+  .header button:hover {
+    font-weight: bold;
+  }
+  
+  

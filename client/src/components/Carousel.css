@@ -1,0 +1,43 @@
+.carousel-item {
+  height: 100%;
+  position: relative;
+}
+  
+.left-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+  text-shadow: 0 0 5px gray;
+}
+  
+.right-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+  text-shadow: 0 0 5px gray;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.dots.active {
+  color: gray;
+}
